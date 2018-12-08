@@ -1,0 +1,7 @@
+para a modificação 1, foi preciso apenas mudar a variavel final maxNum da classe cartela de 50 para 100
+
+para a modificação 2, foi preciso criar uma lista encadeada de cartelas dentro da classe jogador, e modificar os metodos
+"ganhou", "getCartela", e o toString da cartela para receber o indice da cartela dentro da lista.
+todos os métodos que instanciavam ou utilizavam a cartela diretamente, agora chamam o get da lista passando o indice como
+parametro. a maioria das modificações foram feitas apenas na classe jogador, apenas modificações do setText foram feitas
+na classe bingo.

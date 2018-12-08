@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="br.caf.ufv.biblioteca.Visual.Interface">
+  <grid id="27dc6" binding="Principal" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="353" height="347"/>
+    </constraints>
+    <properties/>
+    <border type="line"/>
+    <children>
+      <component id="ba5da" class="javax.swing.JButton" binding="Pesquisa">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Pesquisar livro"/>
+        </properties>
+      </component>
+      <component id="bd49b" class="javax.swing.JButton" binding="Consulta">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <text value="Consultar emprestimos"/>
+        </properties>
+      </component>
+      <component id="21e94" class="javax.swing.JLabel" binding="Biblioteca_UFV">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="br/caf/ufv/biblioteca/icones/book.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bb133" class="javax.swing.JTextField" binding="acesso">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e50dd" class="javax.swing.JButton" binding="botaoEmprestimo">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Fazer emprestimo"/>
+        </properties>
+      </component>
+      <component id="9e77e" class="javax.swing.JButton" binding="Login">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <horizontalAlignment value="0"/>
+          <text value="Fazer Login"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

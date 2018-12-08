@@ -1,0 +1,15 @@
+Amanda Delfino
+Feminino
+70
+25
+1,60
+Estela Miranda
+Feminino
+50
+19
+1,50
+Jose Neto
+Masculino
+80
+22
+1,68
