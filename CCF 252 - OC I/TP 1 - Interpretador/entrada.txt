@@ -1,0 +1,15 @@
+add $t0, $s1, $s2
+addi $s0, $s1, -10
+sub $t0, $s1, $s2
+sll $s1, $s2, 10
+srl $s1, $s2, 10
+chamadinha $s0, $s1, 10
+and $s1, $s2, $s3
+or $s1, $s2, $s3
+nor $s1, $s2, $s3
+ori $s0, $s1, 10
+andi $s0, $s1, 10
+move $s2, $s0
+clear $t0
+not $s0, $s1
+slt $s0, $s1, $s2
