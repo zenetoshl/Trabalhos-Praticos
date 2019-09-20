@@ -1,0 +1,1 @@
+Analisar 2 cubos fazendo a media e devio padrao dos pixeis do quadrado principal usando o rgb e lab.

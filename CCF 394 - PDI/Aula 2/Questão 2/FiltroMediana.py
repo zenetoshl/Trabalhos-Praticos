@@ -1,0 +1,16 @@
+import cv2
+
+img = cv2.imread('FiltroMediana.png')
+imgCinza = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+Fmed = cv2.medianBlur(img, 5)
+FmedCinza = cv2.medianBlur(imgCinza,5)
+cv2.imshow('Filtro mediana', Fmed)
+cv2.imwrite('Filtro_mediana.png', Fmed)
+cv2.imshow('Filtro mediana Cinza', FmedCinza)
+cv2.imwrite('Filtro_mediana_Cinza.png', FmedCinza)
+cv2.imshow('Imagem original', img)
+cv2.imwrite('Imagem_original.png', img)
+cv2.imshow('Imagem original Cinza', imgCinza)
+cv2.imwrite('Imagem_original_Cinza.png', imgCinza)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
